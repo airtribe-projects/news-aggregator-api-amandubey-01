@@ -14,8 +14,10 @@
         "tap": "^18.6.1"
     },
     "dependencies": {
+        "bcryptjs": "^3.0.3",
         "dotenv": "^17.2.3",
-        "express": "^4.18.2"
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.3"
     },
     "engines": {
         "node": ">= 18.0.0"
