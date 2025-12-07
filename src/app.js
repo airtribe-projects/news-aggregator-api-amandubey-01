@@ -14,5 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 // Mount routes
 app.use('/users', require('./routes/authRoutes'));
 
+// Mount userRoutes
+app.use('/users', require('./routes/userRoutes'));
 
 module.exports = app;
