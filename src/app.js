@@ -17,4 +17,7 @@ app.use('/users', require('./routes/authRoutes'));
 // Mount userRoutes
 app.use('/users', require('./routes/userRoutes'));
 
+// Mount news route
+app.use('/news', require('./routes/newsRoutes'));
+
 module.exports = app;
